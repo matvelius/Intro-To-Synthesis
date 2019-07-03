@@ -85,8 +85,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        freq1 = Int(frequencies[row])!
-        freq2 = Int(frequencies[row])!
+        if pickerView == frequencyPicker1 {
+            freq1 = Int(frequencies[row])!
+        } else {
+            freq2 = Int(frequencies[row])!
+        }
     }
 
 }

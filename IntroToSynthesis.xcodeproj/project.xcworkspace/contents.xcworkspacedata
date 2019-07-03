@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/student8/Downloads/AudioKit-iOS/Examples/HelloWorld/IntroToSynthesis.xcodeproj">
+      location = "self:../IntroToSynthesis">
    </FileRef>
 </Workspace>
