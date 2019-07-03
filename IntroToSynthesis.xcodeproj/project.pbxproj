@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C41702801C11954900AB689C /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41702801C11954900AB689C /* IntroToSynthesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToSynthesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41702831C11954900AB689C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C41702851C11954900AB689C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C41702881C11954900AB689C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AC4AE22019BBFF00D04C7F /* README.md */,
-				C41702821C11954900AB689C /* HelloWorld */,
+				C41702821C11954900AB689C /* IntroToSynthesis */,
 				EA127F481C420B4200289567 /* Frameworks */,
 				C41702811C11954900AB689C /* Products */,
 			);
@@ -55,12 +55,12 @@
 		C41702811C11954900AB689C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C41702801C11954900AB689C /* HelloWorld.app */,
+				C41702801C11954900AB689C /* IntroToSynthesis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C41702821C11954900AB689C /* HelloWorld */ = {
+		C41702821C11954900AB689C /* IntroToSynthesis */ = {
 			isa = PBXGroup;
 			children = (
 				C41702831C11954900AB689C /* AppDelegate.swift */,
@@ -70,7 +70,7 @@
 				C417028C1C11954900AB689C /* LaunchScreen.storyboard */,
 				C417028F1C11954900AB689C /* Info.plist */,
 			);
-			path = HelloWorld;
+			path = IntroToSynthesis;
 			sourceTree = "<group>";
 		};
 		EA127F481C420B4200289567 /* Frameworks */ = {
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C417027F1C11954900AB689C /* HelloWorld */ = {
+		C417027F1C11954900AB689C /* IntroToSynthesis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C41702921C11954900AB689C /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = C41702921C11954900AB689C /* Build configuration list for PBXNativeTarget "IntroToSynthesis" */;
 			buildPhases = (
 				C417027C1C11954900AB689C /* Sources */,
 				C417027D1C11954900AB689C /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = IntroToSynthesis;
 			productName = HelloWorld;
-			productReference = C41702801C11954900AB689C /* HelloWorld.app */;
+			productReference = C41702801C11954900AB689C /* IntroToSynthesis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C417027B1C11954900AB689C /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = C417027B1C11954900AB689C /* Build configuration list for PBXProject "IntroToSynthesis" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C417027F1C11954900AB689C /* HelloWorld */,
+				C417027F1C11954900AB689C /* IntroToSynthesis */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C417027B1C11954900AB689C /* Build configuration list for PBXProject "HelloWorld" */ = {
+		C417027B1C11954900AB689C /* Build configuration list for PBXProject "IntroToSynthesis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C41702901C11954900AB689C /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C41702921C11954900AB689C /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		C41702921C11954900AB689C /* Build configuration list for PBXNativeTarget "IntroToSynthesis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C41702931C11954900AB689C /* Debug */,
